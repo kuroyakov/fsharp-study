@@ -10,4 +10,6 @@ F#のいろんな実験コードやモジュールなどを集めたもの
 
 ## License
 
-MIT
+This software is released under the MIT License, see [LICENSE](../../LICENCE).
+
+ここのソフトウェアはMITライセンスの下で公開されています。

@@ -59,6 +59,7 @@ let x = 10      // 値の定義
 let f y = y + 2 // 関数の定義 
 ```
 型は推論します
+
 ↓
 
 ===
@@ -79,6 +80,22 @@ let f x y = x + y // int->int->int
 
 クラスも作成できるのでオブジェクト指向も可
 
+===
+### 手続き的な書き方
+```fsharp
+let f n =
+    if n % 2 = 0 then
+        "Even"
+    else
+        "Odd"
+```
+
+===
+### クラスも作れる
+```fsharp
+type ClassA() =
+    member this.X = "F#"
+```
 					</script>
 				</section>
 			</div>

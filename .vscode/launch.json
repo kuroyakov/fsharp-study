@@ -1,6 +1,14 @@
 {
     "version": "0.2.0",
     "configurations": [
+        
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Execute Javascript on Node.js",
+            "program": "${workspaceRoot}/FableStudy/test.js",
+            "cwd": "${workspaceRoot}/FableStudy"
+        },
         {
             "name": "ConsoleAppSample.exe",
             "type": "mono",

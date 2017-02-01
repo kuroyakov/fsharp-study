@@ -1,0 +1,14 @@
+{
+  "name": "fable-study",
+  "version": "0.0.1",
+  "description": "Example for Fable",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Katsutoshi Kuroya",
+  "license": "MIT",
+  "dependencies": {
+    "fable-core": "^0.7.26"
+  }
+}

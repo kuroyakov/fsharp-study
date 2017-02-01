@@ -13,6 +13,8 @@ var _List = require("fable-core/umd/List");
 
 var _Seq = require("fable-core/umd/Seq");
 
+var _module = require("./module");
+
 (0, _String.fsFormat)("hello, fable")(function (x) {
   console.log(x);
 });
@@ -60,3 +62,6 @@ function negiate(x_1) {
 })(function (list) {
   return (0, _List.map)(add10, list);
 }((0, _Seq.toList)((0, _Seq.range)(1, 50))));
+(0, _String.fsFormat)("50^2 = %A")(function (x) {
+  console.log(x);
+})((0, _module.square)(50));

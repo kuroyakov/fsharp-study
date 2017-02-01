@@ -19,3 +19,7 @@ let negiate x = -x
 
 // 配列
 [1..50] |> List.map add10 |> printfn "%A"
+
+// 別ファイルから
+#load "module.fsx"
+MyModule.square 50 |> printfn "50^2 = %A"
